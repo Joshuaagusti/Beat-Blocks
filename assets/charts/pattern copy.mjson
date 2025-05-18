@@ -1,0 +1,840 @@
+{
+  "title": "Lockstep",
+  "bpm": 1620,
+  "songPath": "",
+  "maxDiceVisible": 160,
+  "dicePattern": [
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+   {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+   {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+   {
+      "value": 2,
+      "soundMap": [
+        0,
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    }
+  ]
+}

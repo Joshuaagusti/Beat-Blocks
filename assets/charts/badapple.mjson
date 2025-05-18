@@ -1,0 +1,598 @@
+{
+  "title": "",
+  "bpm": 138,
+  "songPath": "assets/audio/fixed【東方】Bad Apple!! ＰＶ【影絵】 - kasidid2.ogg",
+  "maxDiceVisible": 1600,
+  "dicePattern": [
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 4,
+      "soundMap": [
+        1,1,1,1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 4,
+      "soundMap": [
+        1,1,1,1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,1
+      ]
+    },
+     {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+     {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+      {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+     {
+      "value": 4,
+      "soundMap": [
+        1,1,1,1
+      ]
+    },
+     {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,1
+      ]
+    },
+     {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 4,
+      "soundMap": [
+        1,1,1,1
+      ]
+    },
+     {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+      {
+      "value": 4,
+      "soundMap": [
+        1,0,0,1
+      ]
+    },
+      {
+      "value": 4,
+      "soundMap": [
+        0,1,1,1
+      ]
+    },
+   {
+      "value": 4,
+      "soundMap": [
+        1,0,0,1
+      ]
+    },
+      {
+      "value": 4,
+      "soundMap": [
+        0,1,1,1
+      ]
+    },
+    {
+      "value": 4,
+      "soundMap": [
+        1,0,0,1
+      ]
+    },
+      {
+      "value": 4,
+      "soundMap": [
+        0,1,1,1
+      ]
+    }
+    ,
+      {
+      "value": 4,
+      "soundMap": [
+        1,0,1,1
+      ]
+    },
+      {
+      "value": 4,
+      "soundMap": [
+        1,0,1,1
+      ]
+    },
+      {
+      "value": 4,
+      "soundMap": [
+        1,0,0,1
+      ]
+    },
+      {
+      "value": 4,
+      "soundMap": [
+        0,1,1,1
+      ]
+    },
+   {
+      "value": 4,
+      "soundMap": [
+        1,0,0,1
+      ]
+    },
+      {
+      "value": 4,
+      "soundMap": [
+        0,1,1,1
+      ]
+    },
+    {
+      "value": 4,
+      "soundMap": [
+        1,0,0,1
+      ]
+    },
+      {
+      "value": 4,
+      "soundMap": [
+        0,1,1,1
+      ]
+    }
+    ,
+      {
+      "value": 4,
+      "soundMap": [
+        1,0,1,1
+      ]
+    },
+      {
+      "value": 4,
+      "soundMap": [
+        1,0,1,1
+      ]
+    },
+      {
+      "value": 4,
+      "soundMap": [
+        1,0,0,1
+      ]
+    },
+      {
+      "value": 4,
+      "soundMap": [
+        0,1,1,1
+      ]
+    },
+   {
+      "value": 4,
+      "soundMap": [
+        1,0,0,1
+      ]
+    },
+      {
+      "value": 4,
+      "soundMap": [
+        0,1,1,1
+      ]
+    },
+    {
+      "value": 4,
+      "soundMap": [
+        1,0,0,1
+      ]
+    },
+      {
+      "value": 4,
+      "soundMap": [
+        0,1,1,1
+      ]
+    }
+    ,
+      {
+      "value": 4,
+      "soundMap": [
+        1,0,1,1
+      ]
+    },
+      {
+      "value": 4,
+      "soundMap": [
+        1,0,1,1
+      ]
+    }
+    ,
+      {
+      "value": 4,
+      "soundMap": [
+        1,0,0,1
+      ]
+    },
+      {
+      "value": 4,
+      "soundMap": [
+        0,1,1,1
+      ]
+    },
+   {
+      "value": 4,
+      "soundMap": [
+        1,0,0,1
+      ]
+    },
+      {
+      "value": 4,
+      "soundMap": [
+        0,1,1,1
+      ]
+    },
+    {
+      "value": 4,
+      "soundMap": [
+        1,0,0,1
+      ]
+    },
+      {
+      "value": 4,
+      "soundMap": [
+        0,1,1,1
+      ]
+    }
+    ,
+      {
+      "value": 3,
+      "soundMap": [
+        1,1,1,1
+      ]
+    },
+      {
+      "value": 3,
+      "soundMap": [
+          1,1,1,1
+      ]
+    },
+     {
+      "value": 4,
+      "soundMap": [
+        1,0,0,1
+      ]
+    },
+      {
+      "value": 4,
+      "soundMap": [
+        0,1,1,1
+      ]
+    },
+   {
+      "value": 4,
+      "soundMap": [
+        1,0,0,1
+      ]
+    },
+      {
+      "value": 4,
+      "soundMap": [
+        0,1,1,1
+      ]
+    },
+    {
+      "value": 4,
+      "soundMap": [
+        1,0,0,1
+      ]
+    },
+      {
+      "value": 4,
+      "soundMap": [
+        0,1,1,1
+      ]
+    }
+    ,
+      {
+      "value": 4,
+      "soundMap": [
+        1,0,1,1
+      ]
+    },
+      {
+      "value": 4,
+      "soundMap": [
+        1,0,1,1
+      ]
+    },
+      {
+      "value": 4,
+      "soundMap": [
+        1,0,0,1
+      ]
+    },
+      {
+      "value": 4,
+      "soundMap": [
+        0,1,1,1
+      ]
+    },
+   {
+      "value": 4,
+      "soundMap": [
+        1,0,0,1
+      ]
+    },
+      {
+      "value": 4,
+      "soundMap": [
+        0,1,1,1
+      ]
+    },
+    {
+      "value": 4,
+      "soundMap": [
+        1,0,0,1
+      ]
+    },
+      {
+      "value": 4,
+      "soundMap": [
+        0,1,1,1
+      ]
+    }
+    ,
+      {
+      "value": 4,
+      "soundMap": [
+        1,0,1,1
+      ]
+    },
+      {
+      "value": 4,
+      "soundMap": [
+        1,0,1,1
+      ]
+    },
+      {
+      "value": 4,
+      "soundMap": [
+        1,0,0,1
+      ]
+    },
+      {
+      "value": 4,
+      "soundMap": [
+        0,1,1,1
+      ]
+    },
+   {
+      "value": 4,
+      "soundMap": [
+        1,0,0,1
+      ]
+    },
+      {
+      "value": 4,
+      "soundMap": [
+        0,1,1,1
+      ]
+    },
+    {
+      "value": 4,
+      "soundMap": [
+        1,0,0,1
+      ]
+    },
+      {
+      "value": 4,
+      "soundMap": [
+        0,1,1,1
+      ]
+    }
+    ,
+      {
+      "value": 4,
+      "soundMap": [
+        1,0,1,1
+      ]
+    },
+      {
+      "value": 4,
+      "soundMap": [
+        1,0,1,1
+      ]
+    }
+    ,
+      {
+      "value": 4,
+      "soundMap": [
+        1,0,0,1
+      ]
+    },
+      {
+      "value": 4,
+      "soundMap": [
+        0,1,1,1
+      ]
+    },
+   {
+      "value": 4,
+      "soundMap": [
+        1,0,0,1
+      ]
+    },
+      {
+      "value": 4,
+      "soundMap": [
+        0,1,1,1
+      ]
+    },
+    {
+      "value": 4,
+      "soundMap": [
+        1,0,0,1
+      ]
+    },
+      {
+      "value": 4,
+      "soundMap": [
+        0,1,1,1
+      ]
+    }
+    ,
+      {
+      "value": 3,
+      "soundMap": [
+        1,1,1,1
+      ]
+    },
+      {
+      "value": 3,
+      "soundMap": [
+          1,1,1,1
+      ]
+    }
+     
+    
+      
+    
+  ]
+}

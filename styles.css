@@ -1,0 +1,614 @@
+@font-face {
+  font-family: 'Spartan MB';
+  src: url('assets/fonts/spartan-mb/SpartanMB-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Spartan MB';
+  src: url('assets/fonts/spartan-mb/SpartanMB-ExtraLight.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Spartan MB';
+  src: url('assets/fonts/spartan-mb/SpartanMB-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Spartan MB';
+  src: url('assets/fonts/spartan-mb/SpartanMB-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Spartan MB';
+  src: url('assets/fonts/spartan-mb/SpartanMB-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Spartan MB';
+  src: url('assets/fonts/spartan-mb/SpartanMB-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Spartan MB';
+  src: url('assets/fonts/spartan-mb/SpartanMB-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Spartan MB';
+  src: url('assets/fonts/spartan-mb/SpartanMB-ExtraBold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Spartan MB';
+  src: url('assets/fonts/spartan-mb/SpartanMB-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+
+ #page{
+height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+
+ }
+body {
+  margin: 0;
+    font-family: 'Spartan MB', sans-serif;
+  font-weight: 500; /* Black */
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: #e5e3e6;
+  min-height: 100dvh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  position: relative;
+  pointer-events: auto !important;
+  z-index: 999 !important;
+  cursor: grab;
+  border-radius: 10%;
+  width: calc(var(--dice-size, 81px));
+  height: calc(var(--dice-size, 81px));
+  overflow: visible; /* Changed from hidden to visible */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  contain: none;
+  transform-origin: center;
+  /* Add margin to prevent clipping during scale */
+  margin: calc(var(--dice-size, 81px) * 0.060); /* Add margin of ~7.5% to handle the 1.15 scale */
+}
+
+
+.item:hover {
+  background-color: aqua;
+  animation: shake 0.3s infinite;
+}
+
+/* Dice Faces - with responsive spacing */
+.first-face {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-face {
+  display: flex;
+  justify-content: center;
+  gap: calc(var(--dice-size, 81px) * 0.167); /* Proportional to dice size */
+}
+
+.third-face {
+  display: flex;  
+  justify-content: center;
+  flex-direction: column;
+  gap: calc(var(--dice-size, 81px) * 0.167);
+}
+
+.third-face .column {
+  overflow: visible;
+  display: flex;
+  flex-direction: row;
+  gap: calc(var(--dice-size, 81px) * 0.167);
+  justify-content: center;
+}
+
+.fourth-face {
+  display: flex;  
+  justify-content: center;
+  gap: calc(var(--dice-size, 81px) * 0.167);
+}
+
+.fourth-face .column {
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--dice-size, 81px) * 0.167);
+  justify-content: space-between;
+}
+
+.dot {
+  display: block;
+  width: calc(var(--dice-size, 81px) * 0.156); /* Proportional to dice size */
+  height: calc(var(--dice-size, 81px) * 0.156);
+  border-radius: 50%;
+  background-color: black;
+}
+
+/* Container Styles - Fixed 4x4 grid */
+.dice-container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(4, auto);
+
+  width: fit-content;
+  height: fit-content;
+  max-height: calc(
+    (var(--dice-size, 81px) * 4) + (var(--dice-size, 81px) * 0.060 * 8) 
+   
+  );
+  overflow: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+  contain: paint;
+ 
+}
+
+
+/* Hide scrollbars */
+.dice-container::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 10;
+  pointer-events: auto;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  padding: 10px;
+}
+
+/* Make sure the container background has appropriate padding */
+#container-bg {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 2.8rem  3rem;
+  padding-bottom: 5rem;
+  border-radius: clamp(15px, 3vw, 28.8px);
+  background-color: #fff;
+  height: fit-content;
+  width: fit-content;
+  z-index: -1;
+  pointer-events: none;
+  margin: auto;
+  contain: paint;
+  overflow: visible; /* Ensure overflow is visible */
+}
+#container-bg h2 {
+  align-self: center;
+  font-weight: bold;
+  font-size: clamp(18px, 4vw, 28.8px);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+ 
+}
+
+/* Row and Title Styles */
+.title-row {
+  display: flex;
+  width: 100%;
+  padding-left: clamp(5px, 1vw, 9px);
+  padding-right: clamp(5px, 1vw, 9px);
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+   margin-bottom: 24px;
+  
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Countdown Styles */
+#countdown .dot {
+  height: calc(var(--dice-size, 81px) * 0.156);
+  width: calc(var(--dice-size, 81px) * 0.156);
+  border-radius: 50%;
+  background-color: darkgrey;
+}
+
+#countdown {
+  width: 50%;
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: calc(var(--dice-size, 81px) * 0.167);
+}
+
+#title {
+  width: 50%;
+}
+
+/* Animations */
+@keyframes shake {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(2deg); }
+  50% { transform: rotate(0deg); }
+  75% { transform: rotate(-2deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes pop-judgement {
+  0% {
+    transform: translate(-50%, 26vh) scale(1.5);
+    opacity: 0;
+  }
+  20% {
+    transform: translate(-50%, 26vh) scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, 25vh) scale(1);
+    opacity: 0;
+  }
+}
+
+@keyframes dot-hit {
+  0% {
+    transform: scale(1);
+    filter: brightness(1) drop-shadow(0 0 0 transparent);
+    background-color: white;
+  }
+  50% {
+    transform: scale(1.25);
+    filter: brightness(1.4) drop-shadow(0 0 8px rgba(255, 255, 255, 0.6));
+    background-color: #d0f0ff;
+  }
+  100% {
+    transform: scale(1);
+    filter: brightness(1) drop-shadow(0 0 0 transparent);
+    background-color: white;
+  }
+}
+
+@keyframes die-hit {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 transparent;
+    z-index: 1000;
+  }
+  30% {
+    transform: scale(1.15);
+  
+    z-index: 1000;
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 transparent;
+    z-index: 1000;
+  }
+}
+
+@keyframes bounceFlash {
+  0% {
+    transform: scale(1) translateY(0);
+    fill: #F85C48;
+    filter: brightness(1);
+  }
+  30% {
+    transform: scaleY(1) translateY(3px);
+    filter: brightness(1);
+  }
+  60% {
+    transform: scaleY(1) translateY(1px);
+    filter: brightness(1);
+  }
+  100% {
+    transform: scale(1) translateY(0);
+    filter: brightness(1);
+  }
+}
+
+/* Cat and Judgement Styles */
+.cat {
+  position: relative;
+  display: flex;
+  width: 50%;
+  margin-top: clamp(12px, 2vw, 21.6px);
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 1000;
+}
+
+.cat img {
+  position: relative;
+  width: clamp(80px, 15vw, 144px);
+  height: auto;
+}
+
+#judgement {
+  position: fixed;
+  font-size: clamp(1rem, 2vw, 1.8rem);
+  font-weight: bold;
+  text-align: center;
+  transition: color 0.2s ease;
+  opacity: 1;
+  top: 50%;
+  left: 50%;
+  filter: brightness(1);
+  z-index: 1000;
+}
+
+#judgement.pop {
+  will-change: transform, opacity, filter;
+  animation: pop-judgement 0.6s ease forwards;
+  opacity: 1;
+}
+
+/* Page and UI Elements */
+#page {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+#line {
+  width: 80%;
+  height: clamp(2px, 0.4vw, 3.6px);
+  border-radius: clamp(5px, 1vw, 9px);
+  background-color: black;
+  margin: 0 auto;
+  position: relative;
+}
+
+p {
+  font-size: clamp(14px, 2.5vw, 21.6px);
+  font-weight: bold;
+  text-align: center;
+}
+
+/* State Classes */
+.all-silent {
+  opacity: 0.5;
+}
+
+.dot.hit {
+  animation: dot-hit 0.3s ease-out forwards;
+}
+
+.die.hit, .item.hit {
+  animation: die-hit 0.3s ease-out both;
+  transform-origin: center;
+  position: relative;
+  z-index: 1000;
+  will-change: transform, box-shadow;
+}
+
+.dot.silent {
+  opacity: 0.2;
+}
+
+.grey {
+  background-color: grey ;
+}
+
+.inactive {
+  background-color: darkgray !important;
+}
+
+/* Button Styles */
+.btn,
+.bb-button {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.3s ease;
+}
+
+.bb-button {
+  width: fit-content;
+  height: clamp(2rem, 3vw, 2.7rem);
+  padding: clamp(5px, 1vw, 9px);
+  background: #F85C48;
+  color: #fff;
+  border-radius: clamp(0.3rem, 0.5vw, 0.45rem);
+  box-shadow: 0 clamp(2px, 0.4vw, 3.6px) clamp(3px, 0.6vw, 5.4px) rgba(0, 0, 0, 0.2);
+  font-size: clamp(12px, 1.5vw, 16px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.bb-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 clamp(3px, 0.6vw, 5.4px) clamp(5px, 1vw, 9px) rgba(0, 0, 0, 0.3);
+}
+
+.bb-button:active {
+  transform: scale(0.95);
+  box-shadow: 0 clamp(1px, 0.2vw, 1.8px) clamp(2px, 0.5vw, 4.5px) rgba(0, 0, 0, 0.25);
+}
+
+/* UI Containers */
+.dice-ui {
+  display: flex;
+  flex-direction: row;
+  gap: clamp(0.25rem, 0.45vw, 0.45rem);
+  justify-content: center;
+  align-items: center;
+  margin-bottom: clamp(20px, 5vw, 57.6px);
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 600px;
+  padding: 0 10px;
+}
+
+#bpm-ui {
+  width: clamp(60px, 8vw, 80px);
+  height: clamp(2rem, 3vw, 2.7rem);
+  border: 1px solid #ccc;
+  border-radius: clamp(0.3rem, 0.5vw, 0.45rem);
+  text-align: center;
+ 
+  font-size: clamp(12px, 1.5vw, 16px);
+}
+
+.quarter-wrapper {
+  
+  display: inline-flex;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+.quarter-wrapper p {
+  position: relative;
+  transform: translateX(-20%);
+}
+
+.row, .quarter-wrapper, svg {
+  margin: 0;
+  padding: 0;
+}
+
+.quarter-wrapper svg {
+  width: clamp(30px, 6vw, 54px);
+  height: clamp(30px, 6vw, 54px);
+}
+
+.bounce-flash {
+  animation: bounceFlash 0.2s ease;
+}
+
+/* Image Settings */
+img {
+  -webkit-user-drag: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}
+
+/* Footer styles */
+.footer {
+  text-align: center;
+  font-size: clamp(0.7rem, 0.8vw, 0.8rem);
+  color: #666;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+/* Ensure the die-wrapper has overflow visible */
+.die-wrapper {
+
+  overflow: visible !important;
+  position: relative;
+  z-index: 1000 !important;
+}
+/* Responsive styles */
+@media (max-width: 768px) {
+  :root {
+    --dice-size: 60px;
+  }
+    
+  .container-bg {
+
+  padding-bottom: 3rem;
+  }
+  .button-text {
+    display: none;
+  }
+  
+  
+}
+
+@media (max-width: 480px) {
+  :root {
+    --dice-size: 48px;
+  }
+.title-row{
+ margin-bottom: 1rem;
+
+}
+#container-bg {
+
+  padding: 2rem  2rem;
+  padding-bottom: 3rem;
+ 
+}
+  .bb-button {
+    padding: 5px 8px;
+  }
+  
+  #title {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 375px) {
+  :root {
+    --dice-size: 40px;
+  }
+  
+
+}
+
+/* For very large screens */
+@media (min-width: 1440px) {
+  :root {
+    --dice-size: 80px;
+  }
+}
+
+/* Calculate dice size based on viewport height for height-constrained scenarios */
+@media (max-height: 700px) {
+  :root {
+    --dice-size: min(calc((100dvh - 200px) / 4), 81px);
+  }
+}

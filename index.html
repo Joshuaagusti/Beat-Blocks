@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Beat Blocks</title>
+  <link rel="stylesheet" href="styles.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+  <script src="lowLag.js"></script>
+  <script src="sm2/js/soundmanager2.js"></script>
+</head>
+<body>
+  <div class="container" id="page">
+    <div class="dice-ui">
+      <input type="file" id="fileInput" accept=".json,.mjson" style="display: none;" />
+      <button onclick="document.getElementById('fileInput').click()" class="bb-button" aria-label="Upload File">
+        <i class="fa-solid fa-upload"></i>
+      </button>
+      <button onclick="listenMode()" class="bb-button inactive" id="listen" aria-label="Listen Mode">
+        <i class="fa-solid fa-headphones"></i>
+      </button>
+      <input type="number" id="bpm-ui" aria-label="BPM" min="40" max="240">
+      <button onclick="removeDice()" class="bb-button" aria-label="Remove Blocks">
+        <i class="fa-solid fa-minus"></i><span class="button-text">Blocks</span>
+      </button>
+      <button onclick="addDice()" class="bb-button" aria-label="Add Blocks">
+        <i class="fa-solid fa-plus"></i><span class="button-text">Blocks</span>
+      </button>
+      <button onclick="play()" id="play" class="bb-button" aria-label="Play">
+        <i class="fa-solid fa-play"></i>
+      </button>
+    </div>
+    
+    <div id="container-bg">
+      <div class="title-row">
+        <h2 id="title">Beat Blocks</h2>
+        <div id="countdown">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>  
+          <span class="dot"></span>  
+        </div>
+      </div>
+      
+      <div class="dice-container" id="dice-container">
+        <!-- Dice will be dynamically added here -->
+      </div>
+      
+      <div class="row">
+        <div class="quarter-wrapper" style="display: none;">
+          <svg
+            viewBox="0 0 100 100"
+            preserveAspectRatio="xMidYMid meet"
+            id="quarter-note-icon"
+          >
+            <g id="Layer_3">
+              <path d="M52.23,74.649c2.869-0.896,4.756-3.65,4.756-6.656v0h0.041V26.756c0-0.97-0.786-1.756-1.756-1.756
+                s-1.756,0.786-1.756,1.756v35.196c-1.351-0.793-2.985-1.156-4.722-0.866c-2.958,0.494-5.336,2.93-5.75,5.9
+                C42.338,72.054,47.057,76.265,52.23,74.649z"></path>
+            </g>
+          </svg>
+          <p id="quarter-p"></p>
+        </div>
+        <div class="cat" style="display: none;">
+          <img src="assets/imgs/bongo/bongo-idle-ezgif.com-resize.png" id="bongo" alt="Bongo Cat">
+        </div>
+      </div>
+      
+      <div id="judgement" style="color: wheat; display: none;"></div>
+    </div>
+     <footer class="footer">
+    &copy; 2025 Beat Blocks.
+  </footer>
+  </div>
+  
+  <div id="controls"></div>
+  
+ 
+ 
+  <script src="script.js"></script>
+  <script src="bongo.js"></script>
+</body>
+</html>
