@@ -1,0 +1,2432 @@
+{
+  "title": "Beat Blocks",
+  "songPath": "assets/temp/femtanyl - PUSH UR T3MPRR [LdTIl4FS-58].wav",
+  "dicePattern": [
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false,
+      "auto": true
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        0
+      ],
+      "startPos": false,
+      "auto": true
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false,
+      "auto": true
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        0
+      ],
+      "startPos": false,
+      "auto": true
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false,
+      "auto": true
+    },
+    {
+      "value": 4,
+      "soundMap": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "startPos": false,
+      "auto": true
+    },
+    {
+      "value": 4,
+      "soundMap": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "startPos": false,
+      "auto": true
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false,
+      "auto": true
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        0
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        0
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 4,
+      "soundMap": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 4,
+      "soundMap": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "auto": true,
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        0
+      ],
+      "auto": true,
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "auto": true,
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        0
+      ],
+      "auto": true,
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "auto": true,
+      "startPos": false
+    },
+    {
+      "value": 4,
+      "soundMap": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "auto": true,
+      "startPos": false
+    },
+    {
+      "value": 4,
+      "soundMap": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "auto": true,
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "auto": true,
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        0
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        0
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "auto": false,
+      "startPos": false
+    },
+    {
+      "value": 4,
+      "soundMap": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "auto": false,
+      "startPos": false
+    },
+    {
+      "value": 4,
+      "soundMap": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "auto": false,
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        0,
+        0
+      ],
+      "auto": false,
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 4,
+      "soundMap": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 4,
+      "soundMap": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 4,
+      "soundMap": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "bpmChange": 310,
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        0
+      ],
+      "startPos": false
+    },
+    {
+      "value": 4,
+      "soundMap": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "startPos": false
+    },
+    {
+      "value": 6,
+      "soundMap": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        0
+      ],
+      "startPos": false
+    },
+    {
+      "value": 4,
+      "soundMap": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "startPos": false
+    },
+    {
+      "value": 6,
+      "soundMap": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 5,
+      "soundMap": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "auto": true,
+      "startPos": false
+    },
+    {
+      "value": 4,
+      "soundMap": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "auto": true,
+      "startPos": false
+    },
+    {
+      "value": 6,
+      "soundMap": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "auto": true,
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "auto": true,
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 6,
+      "soundMap": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "startPos": false
+    },
+    {
+      "value": 6,
+      "soundMap": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "startPos": false
+    },
+    {
+      "value": 6,
+      "soundMap": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "startPos": false
+    },
+    {
+      "value": 6,
+      "soundMap": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false,
+      "bpmChange": 155
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "bpmChange": 155,
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 4,
+      "soundMap": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 4,
+      "soundMap": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 4,
+      "soundMap": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 4,
+      "soundMap": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 4,
+      "soundMap": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 4,
+      "soundMap": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 2,
+      "soundMap": [
+        1,
+        1
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        0
+      ],
+      "startPos": false
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        0
+      ],
+      "startPos": false
+    }
+  ],
+  "bpm": "155"
+}

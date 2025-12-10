@@ -1,13 +1,103 @@
 {
-  "title": "Title",
-  "bpm": 80,
-  "songPath": "path",
-  "maxDiceVisible": 2000,
+  "title": "Beat Blocks",
+  "bpm": 90,
+  "songPath": "",
   "dicePattern": [
- { "value": 1, "soundMap": [1] },
-  { "value": 2, "soundMap": [1,1] },
-   { "value": 3, "soundMap": [1,1,1] },
-        { "value": 4, "soundMap": [1,1,1,1] }
-
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    },
+    {
+      "value": 1,
+      "soundMap": [
+        1
+      ]
+    }
   ]
 }

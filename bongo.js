@@ -9,10 +9,20 @@ const frames = [
 document.addEventListener("keydown", (e) => {
   if (e.key === "j") bongo.src = frames[1]; // Left
   if (e.key === "f") bongo.src = frames[2]; // Right
+   if (e.key === "b") triggerFlash(); // Right
 });
 
-document.addEventListener("keyup", (e) => {
-  if (e.key === "j" || e.key === "f") bongo.src = frames[0]; // Idle
+
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "w") {
+    e.preventDefault(); // only prevent when needed
+    addDice();          // make sure this function exists
+  }
+    if (e.key === "q") {
+    e.preventDefault(); // only prevent when needed
+    removeDice();          // make sure this function exists
+  }
 });
 
 // 🧠 Touch support
@@ -30,5 +40,8 @@ document.addEventListener("touchstart", (e) => {
 }, { passive: false });
 
 document.addEventListener("touchend", () => {
-  bongo.src = frames[0]; // Reset to idle
+  bongo.src = frames[0]; 
+});
+document.addEventListener("keyup", (e) => {
+  bongo.src = frames[0]; // Idle on key release
 });
